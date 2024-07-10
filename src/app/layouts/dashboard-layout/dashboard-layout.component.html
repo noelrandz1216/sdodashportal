@@ -1,0 +1,16 @@
+<div id="wrapper">
+  <app-backend-sidebar></app-backend-sidebar>
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+        <div id="content">
+          <app-topbar></app-topbar>
+          <div class="container-fluid">
+            <app-backend-header></app-backend-header>
+            <app-content-wrapper></app-content-wrapper>
+          </div>
+        </div>
+        <app-backend-footer></app-backend-footer>
+    </div>
+</div>
+<app-backend-top-modal></app-backend-top-modal>
+<router-outlet></router-outlet>
